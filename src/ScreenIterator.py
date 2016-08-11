@@ -20,7 +20,7 @@ def get_tweets_by_hashtag(hashtag):
         yield (tweet['user']['screen_name']).encode("utf-8")
         # yield tweet['id_str'].encode("utf-8")+'    '.encode("utf-8")+ tweet['text'].encode("utf-8")
 
-def get_tweets_unlimited(api, hash_name, max_attemps = 100, max_tweets = 500):
+def get_user_by_hash(api, hash_name, max_attemps = 100, max_tweets = 500):
     user_counts = 0
     max_attemps                    =   100
     max_tweets   =   500
@@ -67,7 +67,7 @@ if __name__ == '__main__':
     # tweets = get_tweets_unlimited(api, '#BDS')
     # print len(tweets)
     count = 0
-    for tweet_user in get_tweets_unlimited(api, '#BDS'):
+    for tweet_user in get_user_by_hash(api, '#BDS'):
         print tweet_user
         count += 1
         print count

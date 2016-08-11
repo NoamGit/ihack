@@ -38,7 +38,7 @@ api = Twython(app_key=TWITTER_APP_KEY,
             oauth_token=TWITTER_ACCESS_TOKEN,
             oauth_token_secret=TWITTER_ACCESS_TOKEN_SECRET)
 
-users_itr = si.get_tweets_unlimited(api, '#freepalestine')
+users_itr = si.get_user_by_hash(api, '#freepalestine')
 count =0
 user_obj = ti.TIE( api_tweepy, filepath = path + "\\test.JSON", id = toy_user_id)
 toy_data = user_obj.get_data()
