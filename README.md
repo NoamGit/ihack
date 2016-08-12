@@ -16,7 +16,8 @@ resulting 1500 user_data of each containing maximum - last 300 tweets
 A decision tree (100 tree 32 depth) and logistic-regression models for binary classification of pro or anti israeli opinion using Azure ML
 
 ### Test precision, recall and accuracy results:
-![ROC and eval metrics]({{site.baseurl}}//LR_RF_comparison.PNG)
+
+![]({{site.baseurl}}/https://github.com/NoamGit/ihack/blob/master/Data/LR_RF_comparison.PNG)
 
 issues - 
  - non balanced data set (80% - 20%)
