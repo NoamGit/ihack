@@ -17,7 +17,7 @@ A decision tree (100 tree 32 depth) and logistic-regression models for binary cl
 
 ### Test precision, recall and accuracy results:
 
-![]({{site.baseurl}}/https://github.com/NoamGit/ihack/blob/master/Data/LR_RF_comparison.PNG)
+![alt tag](https://github.com/NoamGit/ihack/blob/master/Data/LR_RF_comparison.PNG)
 
 issues - 
  - non balanced data set (80% - 20%)
