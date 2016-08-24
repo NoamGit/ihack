@@ -1,9 +1,9 @@
 # ihack
-Supervised model for tagging twitter users according to their view on ISR, based on tweets analysis
+Supervised model for tagging twitter users according to their view on XXXX, based on tweets analysis
 
 ### in short -
 24 h project (2 men involved)
-Used Twitter API for crawling anti-ISR and pro-ISR users based on publication of hostile or positive hashtags (Python).
+Used Twitter API for crawling anti-XXX and pro-XXX users based on publication of hostile or positive hashtags (Python).
 resulting 1500 user_data of each containing maximum - last 300 tweets
 
 ### Engineered features according to -
@@ -13,7 +13,7 @@ resulting 1500 user_data of each containing maximum - last 300 tweets
  resulting in 89 dimension feature vec
  
 ### Training
-A decision tree (100 tree 32 depth) and logistic-regression models for binary classification of pro or anti ISR opinion using Azure ML
+A decision tree (100 tree 32 depth) and logistic-regression models for binary classification of pro or anti-XXX opinion using Azure ML
 
 ### Test precision, recall and accuracy results:
 
